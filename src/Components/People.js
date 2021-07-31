@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect, useReducer } from "react";
-import { FaPlus, FaPen, FaTimes } from "react-icons/fa";
+import { FaPlus, FaTimes } from "react-icons/fa";
 import Products from "./Products";
 
 const reducer = (state, action) => {

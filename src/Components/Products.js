@@ -115,25 +115,27 @@ const Products = (props) => {
           </tbody>
         </table>
         <p className="products-panel-add-products">ADD PRODUCT</p>
-        <input
-          type="text"
-          placeholder="Product name...."
-          className="productName"
-          id="productName"
-        />
-        <input
-          type="text"
-          placeholder="Brought by...."
-          className="broughtBy"
-          id="broughtBy"
-        />
-        <input
-          type="number"
-          placeholder="Amount...."
-          className="amountOfTheProduct"
-          id="amountOfTheProduct"
-        />
-        <button className="priceButton">Rs</button>
+        <div>
+          <input
+            type="text"
+            placeholder="Product name...."
+            className="productName"
+            id="productName"
+          />
+          <input
+            type="text"
+            placeholder="Brought by...."
+            className="broughtBy"
+            id="broughtBy"
+          />
+          <input
+            type="number"
+            placeholder="Amount...."
+            className="amountOfTheProduct"
+            id="amountOfTheProduct"
+          />
+          <p className="priceButton">Rs</p>
+        </div>
         <button
           className="addProductButton"
           onClick={() => {

@@ -134,6 +134,8 @@ body {
   }
   .priceButton {
     padding: 6px;
+    display: inline;
+    border: 1px solid gray;
   }
   .addProductButton {
     display: block;
@@ -284,6 +286,8 @@ body {
   }
   .priceButton {
     padding: 6px;
+    display: inline;
+    border: 1px solid gray;
   }
   .addProductButton {
     display: block;
@@ -450,6 +454,8 @@ body {
   }
   .priceButton {
     padding: 6px;
+    display: inline;
+    border: 1px solid gray;
   }
   .addProductButton {
     display: block;
